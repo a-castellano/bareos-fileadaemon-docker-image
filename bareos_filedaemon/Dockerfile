@@ -23,6 +23,5 @@ RUN \
   apt-get autoclean -qq -o=Dpkg::Use-Pty=0 -y && \
   rm -rf /var/lib/apt/lists/*
 
-USER bareos
 EXPOSE 9102
 CMD ["/usr/sbin/bareos-fd -f"]

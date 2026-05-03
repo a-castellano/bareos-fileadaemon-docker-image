@@ -40,7 +40,6 @@
       "version": "25.0.4~pre116.b35277fb6-52"
     }
   ],
-  "user": "bareos",
   "exposed_ports": [
     9102
   ],
