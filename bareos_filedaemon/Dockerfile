@@ -24,4 +24,4 @@ RUN \
   rm -rf /var/lib/apt/lists/*
 
 EXPOSE 9102
-CMD ["/usr/sbin/bareos-fd -f"]
+CMD ["/usr/sbin/bareos-fd", "-f"]

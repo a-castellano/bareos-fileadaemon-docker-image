@@ -44,7 +44,8 @@
     9102
   ],
   "command": [
-    "/usr/sbin/bareos-fd -f"
+    "/usr/sbin/bareos-fd",
+    "-f"
   ],
   "readme": {
     "description": "Bareos File Daemon, the client component of the Bareos backup system. I use this image in order to manage backups of my Arch Linux hosts, like my laptop.",
